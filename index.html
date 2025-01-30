@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">
+          <img src="imgs/pfp.png" height="60px" alt="Edgar" />
+        </div>
+        <div class="logo-text">Edgar Sousa Portfólio</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#skills">Sobre mim & Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projetos</a>
+          </li>
+          <li>
+            <a href="mailto:stratulatedgar@gmail.com" class="button"
+              >Contacta-me</a
+            >
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero-blue">
+          <div>
+            <h1>
+              <small>Junior Web Developer</small>
+              Edgar Sousa
+            </h1>
+            <p>
+              👋 Bem-vindo <br />
+              <span
+                >Sou o Edgar, um web developer. No meu portfólio, encontrarás os
+                meus projetos e experiências profissionais
+              </span>
+            </p>
+            <div class="call-to-action">
+              <a href="./Sample_Resume_Template.pdf" class="button black">
+                O meu CV
+              </a>
+              <a href="mailto:stratulatedgar@gmail.com" class="button white">
+                Contacta-me
+              </a>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/edgarstratulat" target="_blank">
+                <img src="./imgs/github.png" alt="GitHub" width="48" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/edgar-sousa-734b99292/"
+                target="_blank"
+              >
+                <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-yellow">
+          <img src="./imgs/pfp.png" alt="Edgar" width="100%" />
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <img
+              src="https://skillicons.dev/icons?i=html,css,javascript,typescript,tailwindcss,bootstrap,nodejs,expressjs,mysql,postman,docker,git"
+              height="128px"
+            />
+            <img
+              src="https://skillicons.dev/icons?i=html,css,javascript,typescript,tailwindcss,bootstrap,nodejs,expressjs,mysql,postman,docker,git"
+              height="128px"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills container">
+        <h2>
+          <small>Sobre Mim</small>
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>TailwindCSS</li>
+              <li>Bootstrap</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+            </ul>
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>Postman</li>
+              <li>Docker</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>A bit about me</h3>
+            <p>
+              👋 Olá! O meu nome é Edgar, tenho 19 anos e sou de Santo Tirso.
+              Atualmente, estou a frequentar o CTeSP em Desenvolvimento Web e
+              Multimédia, onde aprofundo os meus conhecimentos na criação de
+              websites e aplicações interativas. Sou apaixonado por tecnologia e
+              design digital, e estou sempre à procura de novos desafios para
+              evoluir como desenvolvedor. Se quiseres trocar ideias ou conhecer
+              melhor o meu trabalho, estás à vontade para explorar o meu
+              portfólio. 🚀
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="work-experience container">
+        <h2>
+          <small>Recentes</small>
+          Experiências profissionais
+        </h2>
+        <div class="jobs">
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="https://www.agroportal.pt/wp-content/uploads/2021/07/Pingo-Doce.jpg"
+                  alt="Pingo Doce"
+                  width="100%"
+                />
+                <figcaption>Pingo Doce</figcaption>
+              </div>
+            </figure>
+            <h3>Pingo Doce</h3>
+            <div>Junho 2023 - Até ao momento</div>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQAscng2-uCzZV8iYptxX59ZR6SKbtyLdKA&s"
+                  alt="Otelec"
+                  width="100%"
+                />
+                <figcaption>Otelec</figcaption>
+              </div>
+            </figure>
+            <h3>Otelec Erasmus+</h3>
+            <div>Maio 2023 - Junho 2023</div>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="https://apcergroup.com/media/k2/items/cache/81eb83d89e373bc15a1f303b66ecf6f0_L.jpg"
+                  alt="TMG"
+                  width="100%"
+                />
+                <figcaption>TMG Automotive</figcaption>
+              </div>
+            </figure>
+            <h3>TMG Automotive</h3>
+            <div>Maio 2022 - Julho 2022</div>
+          </article>
+        </div>
+      </section>
+      <section id="projects" class="bento container">
+        <h2>
+          <small> Alguns</small>
+          Projetos Concluídos
+        </h2>
+        <div class="bento-grid">
+          <a
+            href="https://github.com/Paulosouzx/Weather"
+            target="_blank"
+            class="bento-item"
+          >
+            <img
+              src="https://www.impalastudios.com/wp-content/uploads/2022/04/1-min-7.png"
+              alt="Movie and Weather APP"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/edgarstratulat/api-contact-list"
+            target="_blank"
+            class="bento-item"
+          >
+            <img
+              src="https://interfaces.zapier.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F0sppvm4cmdq7%2F1NW0ivwG1UAQpERbUfqPJc%2F117c860ee71ad7016e6db6ee4a309f3c%2FThumbnail_10__4_.png&w=3840&q=75"
+              alt="API Contact List"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/edgarstratulat/library-system"
+            target="_blank"
+            class="bento-item"
+          >
+            <img
+              src="https://cdn.prod.website-files.com/65fabbf8f7f7323a634a308c/6697a8662e63dfe68b424df5_Group%201171275865.png"
+              alt="Library System"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/edgarstratulat/electronic-orders-system"
+            target="_blank"
+            class="bento-item"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5PeJQAy01m9a0gEdLefGrA6OFL9OL5mRcnw&s"
+              alt="Eletronics Orders System"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/edgarstratulat/StockPortfolio"
+            target="_blank"
+            class="bento-item"
+          >
+            <img
+              src="https://m.economictimes.com/thumb/msid-78732910,width-1200,height-900,resizemode-4,imgsize-155220/etf-portfolio.jpg"
+              alt="Stock Portfolio"
+              width="100%"
+            />
+          </a>
+          <a
+            href="https://github.com/edgarstratulat/scrubTech"
+            target="_blank"
+            class="bento-item"
+          >
+            <img
+              src="https://smartstudent.app/media/2022/09/managment-software.png"
+              alt="Scrub TECH"
+              width="100%"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
